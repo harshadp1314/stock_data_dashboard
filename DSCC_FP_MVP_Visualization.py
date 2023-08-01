@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
 import plotly.graph_objs as pplt
-import streamlit as st
 
 def visualize_data(stock_data, symbol):
     """

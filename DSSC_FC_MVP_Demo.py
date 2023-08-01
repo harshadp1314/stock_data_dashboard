@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import plotly.graph_objs as pplt
+# import plotly.graph_objs as pplt
 import matplotlib.pyplot as plt
 from stocknews import StockNews
 

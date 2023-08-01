@@ -2,7 +2,6 @@ from io import StringIO
 import boto3
 import json
 import pandas as pd
-from smart_open import smart_open
 
 def store_df_into_s3(dataframe, file_name):
     # Load credentials from configuration file

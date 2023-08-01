@@ -1,11 +1,7 @@
-from DSCC_FP_MVP import fetch_stock_data
-import pandas as pd
 import matplotlib.pyplot as plt
-from statsmodels.tsa.holtwinters import SimpleExpSmoothing, ExponentialSmoothing
-from pmdarima.arima import auto_arima
-from statsmodels.tsa.arima.model import ARIMA
-import seaborn as sns
-import numpy as np
+# from statsmodels.tsa.holtwinters import SimpleExpSmoothing, ExponentialSmoothing
+# from pmdarima.arima import auto_arima
+# from statsmodels.tsa.arima.model import ARIMA
 from DSCC_FP_MVP_Storage import retrieve_data_from_s3
 
 apple_df = retrieve_data_from_s3('apple_stock')
